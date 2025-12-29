@@ -1,0 +1,19 @@
+{
+  "name": "termux-html-downloader",
+  "version": "1.0.0",
+  "description": "Download HTML from URL and save to sdcard with modern progress bar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install": "echo 'Installing dependencies...' && npm install"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cli-progress": "^3.12.0",
+    "colors": "^1.4.0",
+    "fs-extra": "^11.1.1"
+  },
+  "keywords": ["termux", "html", "downloader"],
+  "author": "Your Name",
+  "license": "MIT"
+}
