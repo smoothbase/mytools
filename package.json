@@ -1,0 +1,18 @@
+{
+  "name": "smoothing-termux",
+  "version": "1.0.0",
+  "description": "Smoothing Tool dengan Login & Loading Animasi",
+  "main": "smoothing.js",
+  "scripts": {
+    "start": "node smoothing.js",
+    "dev": "node smoothing.js --dev"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10",
+    "figlet": "^1.5.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
